@@ -164,6 +164,21 @@ font-size: 20px;
 font-weight: 800;
 border: none;
 }
+
+.your{
+    text-align: center;
+    margin-top: 100px;
+}
+.choose{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.Diam{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
 /* 
 respobnsive section */
                                
@@ -246,10 +261,10 @@ margin-left: 246px
     margin-left: 30px;
  
 }
-.section-title{
+.section-title ,.choose{
     font-size: 30px;
 }
-.sit ,.tempus ,.amet{
+.sit ,.tempus ,.amet ,.Diam{
     font-size: 20px;
 }
 .read{
