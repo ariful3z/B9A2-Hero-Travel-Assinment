@@ -115,6 +115,7 @@ height: 52px;
 background: #FF5400;
 width: 154px;
 height: 52px;
+border: none;
 }
 .header{
     display: flex;
@@ -125,7 +126,44 @@ height: 52px;
 .group{
     display: none;
 }
-
+.feature{
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+}
+.section-title{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.tempus{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+.sit{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;  
+}
+.amet{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.feature-img{
+ width: 100%;
+}
+.read{
+    border-radius: 8px;
+background: #FF5400;
+width: 174px;
+height: 52px;
+color: #FFF;
+font-size: 20px;
+font-weight: 800;
+border: none;
+}
 /* 
 respobnsive section */
                                
@@ -198,5 +236,25 @@ width: 360px;
 height: 52px;
 margin-left: 246px
 }
+
+.feature{
+    flex-direction: column;
+
+}
+.feature-img img{
+    width: 60%;
+    margin-left: 30px;
+ 
+}
+.section-title{
+    font-size: 30px;
+}
+.sit ,.tempus ,.amet{
+    font-size: 20px;
+}
+.read{
+    margin-left: 90px;
+}
+
 
 }
