@@ -179,6 +179,11 @@ font-weight: 800;
 font-size: 16px;
 font-weight: 400;
 }
+
+
+.teams-image-container{
+    width: 100%;
+}
 /* 
 respobnsive section */
                                
@@ -269,6 +274,9 @@ margin-left: 246px
 }
 .read{
     margin-left: 90px;
+}
+.teams-image-container img{
+width: 60%;
 }
 
 
