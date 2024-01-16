@@ -3,6 +3,7 @@
 
   * {
     font-family: 'Mulish', sans-serif;
+
   }
   nav{
     display: flex;
@@ -70,7 +71,8 @@ margin-top: 50px;
     display: flex;
     gap: 24px;
     border-radius: 8px;
-    border-radius: 8px;
+    
+background: rgba(255, 255, 255, 0.30);
  
 }
 .explore{
@@ -183,6 +185,68 @@ font-weight: 400;
 
 .teams-image-container{
     width: 100%;
+   
+}
+
+.why{
+    text-align: center;
+    margin-top: 100px;
+}
+.us{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.odio{
+    color: rgba(19, 19, 24, 0.70);
+
+font-size: 16px;
+font-weight: 400;
+}
+ .skill-container{
+    display: flex;
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+   
+}
+.skill{
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px;
+}
+.files{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px 55px;
+}
+.skill-title{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.skill-description{
+    color: #5A5A5D;
+font-size: 16px;
+
+font-weight: 400;
+}
+.world{
+  margin-left: 300px;
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 32px 55px;
+width: 473px;
+height: 200px;
+justify-content: center;
+margin-top:24px;
+
+
+  
 }
 /* 
 respobnsive section */
@@ -212,6 +276,8 @@ respobnsive section */
 
     .where{
         flex-direction: column;
+        border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
     }
     .hero-text{
         /* text-align: center;
@@ -277,6 +343,22 @@ margin-left: 246px
 }
 .teams-image-container img{
 width: 60%;
+}
+.skill-container{
+    flex-direction: column;
+    grid-template-columns: 1fr;
+ 
+    width: 50%;
+}
+.world{
+    width: 162px;
+    height: 366px;
+    margin: auto;
+    margin-left: 1px;
+    margin-top: 40px;
+   
+
+
 }
 
 
